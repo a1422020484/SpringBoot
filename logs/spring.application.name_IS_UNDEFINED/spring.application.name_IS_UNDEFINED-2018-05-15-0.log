@@ -1,0 +1,739 @@
+[2018-05-15 10:58:06,345][INFO ] c.h.s.SpringbootEasyuiApplication[48] - Starting SpringbootEasyuiApplication on PC-20180427VENM with PID 4432 (E:\IDE\workspace\workspace_self\springboot_easyui\target\classes started by Administrator in E:\IDE\workspace\workspace_self\springboot_easyui)
+[2018-05-15 10:58:06,353][INFO ] c.h.s.SpringbootEasyuiApplication[593] - No active profile set, falling back to default profiles: default
+[2018-05-15 10:58:06,429][INFO ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@741afea2: startup date [Tue May 15 10:58:06 CST 2018]; root of context hierarchy
+[2018-05-15 10:58:06,595][INFO ] o.h.v.i.util.Version[30] - HV000001: Hibernate Validator 5.3.6.Final
+[2018-05-15 10:58:10,124][INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3d24c3c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-05-15 10:58:12,185][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[92] - Tomcat initialized with port(s): 8080 (http)
+[2018-05-15 10:58:12,229][INFO ] o.a.c.h.Http11NioProtocol[180] - Initializing ProtocolHandler ["http-nio-8080"]
+[2018-05-15 10:58:12,265][INFO ] o.a.c.c.StandardService[180] - Starting service [Tomcat]
+[2018-05-15 10:58:12,267][INFO ] o.a.c.c.StandardEngine[180] - Starting Servlet Engine: Apache Tomcat/8.5.31
+[2018-05-15 10:58:12,774][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring embedded WebApplicationContext
+[2018-05-15 10:58:12,775][INFO ] o.s.w.c.ContextLoader[276] - Root WebApplicationContext: initialization completed in 6346 ms
+[2018-05-15 10:58:13,254][INFO ] o.s.b.w.s.ServletRegistrationBean[190] - Mapping servlet: 'dispatcherServlet' to [/]
+[2018-05-15 10:58:13,268][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-05-15 10:58:13,270][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-05-15 10:58:13,271][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-05-15 10:58:13,272][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'requestContextFilter' to: [/*]
+[2018-05-15 10:58:15,322][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[356] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2018-05-15 10:58:15,373][INFO ] o.h.j.i.u.LogHelper[31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-05-15 10:58:15,694][INFO ] o.hibernate.Version[37] - HHH000412: Hibernate Core {5.0.12.Final}
+[2018-05-15 10:58:15,706][INFO ] o.h.cfg.Environment[198] - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.show_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.auto=update, hibernate.format_sql=true}
+[2018-05-15 10:58:15,707][INFO ] o.h.cfg.Environment[317] - HHH000021: Bytecode provider name : javassist
+[2018-05-15 10:58:15,897][INFO ] o.h.a.common.Version[66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-05-15 10:58:16,838][INFO ] o.h.dialect.Dialect[156] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2018-05-15 10:58:18,963][INFO ] o.h.t.h.SchemaUpdate[105] - HHH000228: Running hbm2ddl schema update
+[2018-05-15 10:58:23,163][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[414] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-15 10:58:24,546][INFO ] o.s.s.c.ThreadPoolTaskScheduler[165] - Initializing ExecutorService  'defaultSockJsTaskScheduler'
+[2018-05-15 10:58:24,673][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/ws/server] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+[2018-05-15 10:58:24,674][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/sockjs/server/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+[2018-05-15 10:58:25,827][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerAdapter[534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@741afea2: startup date [Tue May 15 10:58:06 CST 2018]; root of context hierarchy
+[2018-05-15 10:58:26,017][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.index()
+[2018-05-15 10:58:26,020][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reject]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.reject()
+[2018-05-15 10:58:26,026][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/resource]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.login(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+[2018-05-15 10:58:26,028][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/login]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.login(javax.servlet.http.HttpSession)
+[2018-05-15 10:58:26,030][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/logout]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.logout(javax.servlet.http.HttpSession)
+[2018-05-15 10:58:26,031][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.doLoin(java.lang.String,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+[2018-05-15 10:58:26,032][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reg],methods=[GET]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.toReg()
+[2018-05-15 10:58:26,033][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reg],methods=[POST]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.doReg(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+[2018-05-15 10:58:26,035][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/verify/code],methods=[GET]}" onto public void com.huhy.springboot_easyui.easyui.controller.AppController.verifyCode(javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+[2018-05-15 10:58:26,036][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/desktop]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.desktop()
+[2018-05-15 10:58:26,037][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/password]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.changePassword()
+[2018-05-15 10:58:26,039][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/password],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AppController.doChangePassword(com.huhy.springboot_easyui.easyui.model.domain.Member,java.lang.String,java.lang.String,java.lang.String)
+[2018-05-15 10:58:26,040][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/info]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.changeInfo()
+[2018-05-15 10:58:26,041][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/info],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AppController.doChangeInfo(com.huhy.springboot_easyui.easyui.model.domain.Member,com.huhy.springboot_easyui.easyui.model.domain.Member,javax.servlet.http.HttpSession)
+[2018-05-15 10:58:26,051][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/attachment/upload],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AttachmentController.upload(com.huhy.springboot_easyui.easyui.common.AttachmentType,com.huhy.springboot_easyui.easyui.model.domain.Member,org.springframework.web.multipart.MultipartFile)
+[2018-05-15 10:58:26,053][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/attachment/**],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.springframework.core.io.Resource> com.huhy.springboot_easyui.easyui.controller.AttachmentController.loadFile(javax.servlet.http.HttpServletRequest)
+[2018-05-15 10:58:26,062][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.MemberController.index()
+[2018-05-15 10:58:26,063][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/form]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.MemberController.form(java.lang.Long,org.springframework.ui.Model)
+[2018-05-15 10:58:26,064][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.delete(java.lang.Long)
+[2018-05-15 10:58:26,065][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/check]}" onto public boolean com.huhy.springboot_easyui.easyui.controller.system.MemberController.check(java.lang.String)
+[2018-05-15 10:58:26,067][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Member> com.huhy.springboot_easyui.easyui.controller.system.MemberController.list(int,int,java.lang.String,java.lang.String,java.lang.String)
+[2018-05-15 10:58:26,068][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/save || /system/member/update]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.save(com.huhy.springboot_easyui.easyui.model.domain.Member,java.lang.Long[],org.springframework.validation.BindingResult)
+[2018-05-15 10:58:26,070][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/roles]}" onto public java.util.List<com.huhy.springboot_easyui.easyui.model.domain.Role> com.huhy.springboot_easyui.easyui.controller.system.MemberController.roles()
+[2018-05-15 10:58:26,071][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/password/reset]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.resetPassword(java.lang.Long)
+[2018-05-15 10:58:26,075][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.ResourceController.index()
+[2018-05-15 10:58:26,076][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/form]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.ResourceController.form(java.lang.Long,org.springframework.ui.Model)
+[2018-05-15 10:58:26,077][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.ResourceController.delete(java.lang.Long)
+[2018-05-15 10:58:26,078][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.ResourceController.list()
+[2018-05-15 10:58:26,079][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/save || /system/resource/update]}" onto public java.lang.Object com.huhy.springboot_easyui.easyui.controller.system.ResourceController.save(com.huhy.springboot_easyui.easyui.model.domain.Resource,org.springframework.validation.BindingResult)
+[2018-05-15 10:58:26,081][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/parent/tree]}" onto public java.lang.Iterable<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.ResourceController.parentTree()
+[2018-05-15 10:58:26,087][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.RoleController.index()
+[2018-05-15 10:58:26,089][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.RoleController.delete(java.lang.Long)
+[2018-05-15 10:58:26,090][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Role> com.huhy.springboot_easyui.easyui.controller.system.RoleController.list()
+[2018-05-15 10:58:26,091][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/save || /system/role/update]}" onto public java.lang.Object com.huhy.springboot_easyui.easyui.controller.system.RoleController.save(com.huhy.springboot_easyui.easyui.model.domain.Role,org.springframework.validation.BindingResult)
+[2018-05-15 10:58:26,092][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/resource/save]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.RoleController.resourceSave(java.lang.Long,java.lang.Long[])
+[2018-05-15 10:58:26,094][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/resource/tree]}" onto public java.lang.Iterable<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.RoleController.resourceTree()
+[2018-05-15 10:58:26,096][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/im/user/list]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.websocket.ImController.userList()
+[2018-05-15 10:58:26,096][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/im/send]}" onto public void com.huhy.springboot_easyui.easyui.controller.websocket.ImController.send(java.lang.Long,java.lang.String,com.huhy.springboot_easyui.easyui.model.domain.Member)
+[2018-05-15 10:58:26,102][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2018-05-15 10:58:26,103][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2018-05-15 10:58:26,207][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 10:58:26,208][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 10:58:26,359][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 10:58:27,052][INFO ] o.s.w.s.v.f.FreeMarkerConfigurer[127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[2018-05-15 10:58:27,917][INFO ] o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+[2018-05-15 10:58:28,170][INFO ] o.s.j.e.a.AnnotationMBeanExporter[431] - Registering beans for JMX exposure on startup
+[2018-05-15 10:58:28,192][INFO ] o.s.c.s.DefaultLifecycleProcessor[341] - Starting beans in phase 2147483647
+[2018-05-15 10:58:28,215][INFO ] o.a.c.h.Http11NioProtocol[180] - Starting ProtocolHandler ["http-nio-8080"]
+[2018-05-15 10:58:28,250][INFO ] o.a.t.u.n.NioSelectorPool[180] - Using a shared selector for servlet write/read
+[2018-05-15 10:58:28,307][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[216] - Tomcat started on port(s): 8080 (http)
+[2018-05-15 10:58:28,322][INFO ] c.h.s.SpringbootEasyuiApplication[57] - Started SpringbootEasyuiApplication in 23.207 seconds (JVM running for 25.135)
+[2018-05-15 10:58:56,801][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-05-15 10:58:56,802][INFO ] o.s.w.s.DispatcherServlet[489] - FrameworkServlet 'dispatcherServlet': initialization started
+[2018-05-15 10:58:56,855][INFO ] o.s.w.s.DispatcherServlet[508] - FrameworkServlet 'dispatcherServlet': initialization completed in 53 ms
+[2018-05-15 10:59:05,326][INFO ] o.h.h.i.QueryTranslatorFactoryInitiator[47] - HHH000397: Using ASTQueryTranslatorFactory
+[2018-05-15 11:30:20,782][INFO ] c.h.s.SpringbootEasyuiApplication[48] - Starting SpringbootEasyuiApplication on PC-20171116TZRZ with PID 12928 (F:\IdeaWork\springboot_easyui\target\classes started by Administrator in F:\IdeaWork\springboot_easyui)
+[2018-05-15 11:30:20,783][INFO ] c.h.s.SpringbootEasyuiApplication[593] - No active profile set, falling back to default profiles: default
+[2018-05-15 11:30:20,867][INFO ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@430cda82: startup date [Tue May 15 11:30:20 CST 2018]; root of context hierarchy
+[2018-05-15 11:30:20,991][INFO ] o.h.v.i.util.Version[30] - HV000001: Hibernate Validator 5.3.6.Final
+[2018-05-15 11:30:21,815][INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dfe5adb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-05-15 11:30:22,447][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[92] - Tomcat initialized with port(s): 8080 (http)
+[2018-05-15 11:30:22,458][INFO ] o.a.c.h.Http11NioProtocol[180] - Initializing ProtocolHandler ["http-nio-8080"]
+[2018-05-15 11:30:22,467][INFO ] o.a.c.c.StandardService[180] - Starting service [Tomcat]
+[2018-05-15 11:30:22,467][INFO ] o.a.c.c.StandardEngine[180] - Starting Servlet Engine: Apache Tomcat/8.5.31
+[2018-05-15 11:30:22,570][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring embedded WebApplicationContext
+[2018-05-15 11:30:22,571][INFO ] o.s.w.c.ContextLoader[276] - Root WebApplicationContext: initialization completed in 1704 ms
+[2018-05-15 11:30:22,676][INFO ] o.s.b.w.s.ServletRegistrationBean[190] - Mapping servlet: 'dispatcherServlet' to [/]
+[2018-05-15 11:30:22,683][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-05-15 11:30:22,684][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-05-15 11:30:22,684][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-05-15 11:30:22,684][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'requestContextFilter' to: [/*]
+[2018-05-15 11:30:25,042][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[356] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2018-05-15 11:30:25,051][INFO ] o.h.j.i.u.LogHelper[31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-05-15 11:30:25,105][INFO ] o.hibernate.Version[37] - HHH000412: Hibernate Core {5.0.12.Final}
+[2018-05-15 11:30:25,107][INFO ] o.h.cfg.Environment[198] - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.show_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.auto=update, hibernate.format_sql=true}
+[2018-05-15 11:30:25,107][INFO ] o.h.cfg.Environment[317] - HHH000021: Bytecode provider name : javassist
+[2018-05-15 11:30:25,142][INFO ] o.h.a.common.Version[66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-05-15 11:30:25,224][INFO ] o.h.dialect.Dialect[156] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2018-05-15 11:30:25,589][INFO ] o.h.t.h.SchemaUpdate[105] - HHH000228: Running hbm2ddl schema update
+[2018-05-15 11:30:31,224][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[414] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-15 11:30:31,516][INFO ] o.s.s.c.ThreadPoolTaskScheduler[165] - Initializing ExecutorService  'defaultSockJsTaskScheduler'
+[2018-05-15 11:30:31,563][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/ws/server] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+[2018-05-15 11:30:31,563][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/sockjs/server/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+[2018-05-15 11:30:32,049][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerAdapter[534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@430cda82: startup date [Tue May 15 11:30:20 CST 2018]; root of context hierarchy
+[2018-05-15 11:30:32,096][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.index()
+[2018-05-15 11:30:32,097][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reject]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.reject()
+[2018-05-15 11:30:32,098][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/resource]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.login(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+[2018-05-15 11:30:32,099][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/login]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.login(javax.servlet.http.HttpSession)
+[2018-05-15 11:30:32,099][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/logout]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.logout(javax.servlet.http.HttpSession)
+[2018-05-15 11:30:32,099][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.doLoin(java.lang.String,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+[2018-05-15 11:30:32,099][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reg],methods=[GET]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.toReg()
+[2018-05-15 11:30:32,100][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reg],methods=[POST]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.doReg(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+[2018-05-15 11:30:32,100][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/verify/code],methods=[GET]}" onto public void com.huhy.springboot_easyui.easyui.controller.AppController.verifyCode(javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+[2018-05-15 11:30:32,100][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/desktop]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.desktop()
+[2018-05-15 11:30:32,100][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/password]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.changePassword()
+[2018-05-15 11:30:32,101][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/password],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AppController.doChangePassword(com.huhy.springboot_easyui.easyui.model.domain.Member,java.lang.String,java.lang.String,java.lang.String)
+[2018-05-15 11:30:32,101][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/info]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.changeInfo()
+[2018-05-15 11:30:32,101][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/info],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AppController.doChangeInfo(com.huhy.springboot_easyui.easyui.model.domain.Member,com.huhy.springboot_easyui.easyui.model.domain.Member,javax.servlet.http.HttpSession)
+[2018-05-15 11:30:32,104][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/attachment/upload],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AttachmentController.upload(com.huhy.springboot_easyui.easyui.common.AttachmentType,com.huhy.springboot_easyui.easyui.model.domain.Member,org.springframework.web.multipart.MultipartFile)
+[2018-05-15 11:30:32,104][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/attachment/**],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.springframework.core.io.Resource> com.huhy.springboot_easyui.easyui.controller.AttachmentController.loadFile(javax.servlet.http.HttpServletRequest)
+[2018-05-15 11:30:32,106][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.MemberController.index()
+[2018-05-15 11:30:32,106][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/form]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.MemberController.form(java.lang.Long,org.springframework.ui.Model)
+[2018-05-15 11:30:32,107][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.delete(java.lang.Long)
+[2018-05-15 11:30:32,107][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/check]}" onto public boolean com.huhy.springboot_easyui.easyui.controller.system.MemberController.check(java.lang.String)
+[2018-05-15 11:30:32,107][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Member> com.huhy.springboot_easyui.easyui.controller.system.MemberController.list(int,int,java.lang.String,java.lang.String,java.lang.String)
+[2018-05-15 11:30:32,107][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/save || /system/member/update]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.save(com.huhy.springboot_easyui.easyui.model.domain.Member,java.lang.Long[],org.springframework.validation.BindingResult)
+[2018-05-15 11:30:32,108][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/roles]}" onto public java.util.List<com.huhy.springboot_easyui.easyui.model.domain.Role> com.huhy.springboot_easyui.easyui.controller.system.MemberController.roles()
+[2018-05-15 11:30:32,108][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/password/reset]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.resetPassword(java.lang.Long)
+[2018-05-15 11:30:32,109][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.ResourceController.index()
+[2018-05-15 11:30:32,110][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/form]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.ResourceController.form(java.lang.Long,org.springframework.ui.Model)
+[2018-05-15 11:30:32,110][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.ResourceController.delete(java.lang.Long)
+[2018-05-15 11:30:32,110][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.ResourceController.list()
+[2018-05-15 11:30:32,111][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/save || /system/resource/update]}" onto public java.lang.Object com.huhy.springboot_easyui.easyui.controller.system.ResourceController.save(com.huhy.springboot_easyui.easyui.model.domain.Resource,org.springframework.validation.BindingResult)
+[2018-05-15 11:30:32,111][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/parent/tree]}" onto public java.lang.Iterable<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.ResourceController.parentTree()
+[2018-05-15 11:30:32,112][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.RoleController.index()
+[2018-05-15 11:30:32,112][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.RoleController.delete(java.lang.Long)
+[2018-05-15 11:30:32,112][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Role> com.huhy.springboot_easyui.easyui.controller.system.RoleController.list()
+[2018-05-15 11:30:32,112][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/save || /system/role/update]}" onto public java.lang.Object com.huhy.springboot_easyui.easyui.controller.system.RoleController.save(com.huhy.springboot_easyui.easyui.model.domain.Role,org.springframework.validation.BindingResult)
+[2018-05-15 11:30:32,113][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/resource/save]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.RoleController.resourceSave(java.lang.Long,java.lang.Long[])
+[2018-05-15 11:30:32,113][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/resource/tree]}" onto public java.lang.Iterable<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.RoleController.resourceTree()
+[2018-05-15 11:30:32,113][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/im/user/list]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.websocket.ImController.userList()
+[2018-05-15 11:30:32,114][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/im/send]}" onto public void com.huhy.springboot_easyui.easyui.controller.websocket.ImController.send(java.lang.Long,java.lang.String,com.huhy.springboot_easyui.easyui.model.domain.Member)
+[2018-05-15 11:30:32,116][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2018-05-15 11:30:32,116][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2018-05-15 11:30:32,140][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 11:30:32,140][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 11:30:32,168][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 11:30:32,330][INFO ] o.s.w.s.v.f.FreeMarkerConfigurer[127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[2018-05-15 11:30:32,441][INFO ] o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+[2018-05-15 11:30:32,484][INFO ] o.s.j.e.a.AnnotationMBeanExporter[431] - Registering beans for JMX exposure on startup
+[2018-05-15 11:30:32,489][INFO ] o.s.c.s.DefaultLifecycleProcessor[341] - Starting beans in phase 2147483647
+[2018-05-15 11:30:32,496][INFO ] o.a.c.h.Http11NioProtocol[180] - Starting ProtocolHandler ["http-nio-8080"]
+[2018-05-15 11:30:32,504][INFO ] o.a.t.u.n.NioSelectorPool[180] - Using a shared selector for servlet write/read
+[2018-05-15 11:30:32,515][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[216] - Tomcat started on port(s): 8080 (http)
+[2018-05-15 11:30:32,519][INFO ] c.h.s.SpringbootEasyuiApplication[57] - Started SpringbootEasyuiApplication in 12.489 seconds (JVM running for 13.87)
+[2018-05-15 12:57:51,847][INFO ] c.h.s.SpringbootEasyuiApplication[48] - Starting SpringbootEasyuiApplication on PC-20171116TZRZ with PID 8096 (F:\IdeaWork\springboot_easyui\target\classes started by Administrator in F:\IdeaWork\springboot_easyui)
+[2018-05-15 12:57:51,849][INFO ] c.h.s.SpringbootEasyuiApplication[593] - No active profile set, falling back to default profiles: default
+[2018-05-15 12:57:51,906][INFO ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@674ac270: startup date [Tue May 15 12:57:51 CST 2018]; root of context hierarchy
+[2018-05-15 12:57:51,965][INFO ] o.h.v.i.util.Version[30] - HV000001: Hibernate Validator 5.3.6.Final
+[2018-05-15 12:57:52,964][INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9c9936bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-05-15 12:57:53,345][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[92] - Tomcat initialized with port(s): 8080 (http)
+[2018-05-15 12:57:53,355][INFO ] o.a.c.h.Http11NioProtocol[180] - Initializing ProtocolHandler ["http-nio-8080"]
+[2018-05-15 12:57:53,363][INFO ] o.a.c.c.StandardService[180] - Starting service [Tomcat]
+[2018-05-15 12:57:53,363][INFO ] o.a.c.c.StandardEngine[180] - Starting Servlet Engine: Apache Tomcat/8.5.31
+[2018-05-15 12:57:53,439][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring embedded WebApplicationContext
+[2018-05-15 12:57:53,439][INFO ] o.s.w.c.ContextLoader[276] - Root WebApplicationContext: initialization completed in 1533 ms
+[2018-05-15 12:57:53,544][INFO ] o.s.b.w.s.ServletRegistrationBean[190] - Mapping servlet: 'dispatcherServlet' to [/]
+[2018-05-15 12:57:53,547][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-05-15 12:57:53,547][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-05-15 12:57:53,547][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-05-15 12:57:53,547][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'requestContextFilter' to: [/*]
+[2018-05-15 12:57:55,891][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[356] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2018-05-15 12:57:55,900][INFO ] o.h.j.i.u.LogHelper[31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-05-15 12:57:55,939][INFO ] o.hibernate.Version[37] - HHH000412: Hibernate Core {5.0.12.Final}
+[2018-05-15 12:57:55,940][INFO ] o.h.cfg.Environment[198] - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.show_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.auto=update, hibernate.format_sql=true}
+[2018-05-15 12:57:55,941][INFO ] o.h.cfg.Environment[317] - HHH000021: Bytecode provider name : javassist
+[2018-05-15 12:57:55,965][INFO ] o.h.a.common.Version[66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-05-15 12:57:56,046][INFO ] o.h.dialect.Dialect[156] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2018-05-15 12:57:56,448][INFO ] o.h.t.h.SchemaUpdate[105] - HHH000228: Running hbm2ddl schema update
+[2018-05-15 12:58:01,551][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[414] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-15 12:58:01,797][INFO ] o.s.s.c.ThreadPoolTaskScheduler[165] - Initializing ExecutorService  'defaultSockJsTaskScheduler'
+[2018-05-15 12:58:01,820][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/ws/server] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+[2018-05-15 12:58:01,821][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/sockjs/server/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+[2018-05-15 12:58:02,083][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerAdapter[534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@674ac270: startup date [Tue May 15 12:57:51 CST 2018]; root of context hierarchy
+[2018-05-15 12:58:02,129][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.index()
+[2018-05-15 12:58:02,129][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reject]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.reject()
+[2018-05-15 12:58:02,131][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/resource]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.login(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+[2018-05-15 12:58:02,131][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/login]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.login(javax.servlet.http.HttpSession)
+[2018-05-15 12:58:02,132][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/logout]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.logout(javax.servlet.http.HttpSession)
+[2018-05-15 12:58:02,132][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.doLoin(java.lang.String,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+[2018-05-15 12:58:02,132][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reg],methods=[GET]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.toReg()
+[2018-05-15 12:58:02,132][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reg],methods=[POST]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.doReg(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+[2018-05-15 12:58:02,133][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/verify/code],methods=[GET]}" onto public void com.huhy.springboot_easyui.easyui.controller.AppController.verifyCode(javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+[2018-05-15 12:58:02,133][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/desktop]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.desktop()
+[2018-05-15 12:58:02,133][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/password]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.changePassword()
+[2018-05-15 12:58:02,133][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/password],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AppController.doChangePassword(com.huhy.springboot_easyui.easyui.model.domain.Member,java.lang.String,java.lang.String,java.lang.String)
+[2018-05-15 12:58:02,134][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/info]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.changeInfo()
+[2018-05-15 12:58:02,134][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/info],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AppController.doChangeInfo(com.huhy.springboot_easyui.easyui.model.domain.Member,com.huhy.springboot_easyui.easyui.model.domain.Member,javax.servlet.http.HttpSession)
+[2018-05-15 12:58:02,137][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/attachment/upload],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AttachmentController.upload(com.huhy.springboot_easyui.easyui.common.AttachmentType,com.huhy.springboot_easyui.easyui.model.domain.Member,org.springframework.web.multipart.MultipartFile)
+[2018-05-15 12:58:02,137][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/attachment/**],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.springframework.core.io.Resource> com.huhy.springboot_easyui.easyui.controller.AttachmentController.loadFile(javax.servlet.http.HttpServletRequest)
+[2018-05-15 12:58:02,139][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.MemberController.index()
+[2018-05-15 12:58:02,139][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/form]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.MemberController.form(java.lang.Long,org.springframework.ui.Model)
+[2018-05-15 12:58:02,140][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.delete(java.lang.Long)
+[2018-05-15 12:58:02,140][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/check]}" onto public boolean com.huhy.springboot_easyui.easyui.controller.system.MemberController.check(java.lang.String)
+[2018-05-15 12:58:02,140][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Member> com.huhy.springboot_easyui.easyui.controller.system.MemberController.list(int,int,java.lang.String,java.lang.String,java.lang.String)
+[2018-05-15 12:58:02,141][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/save || /system/member/update]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.save(com.huhy.springboot_easyui.easyui.model.domain.Member,java.lang.Long[],org.springframework.validation.BindingResult)
+[2018-05-15 12:58:02,141][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/roles]}" onto public java.util.List<com.huhy.springboot_easyui.easyui.model.domain.Role> com.huhy.springboot_easyui.easyui.controller.system.MemberController.roles()
+[2018-05-15 12:58:02,141][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/password/reset]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.resetPassword(java.lang.Long)
+[2018-05-15 12:58:02,142][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.ResourceController.index()
+[2018-05-15 12:58:02,142][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/form]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.ResourceController.form(java.lang.Long,org.springframework.ui.Model)
+[2018-05-15 12:58:02,142][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.ResourceController.delete(java.lang.Long)
+[2018-05-15 12:58:02,143][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.ResourceController.list()
+[2018-05-15 12:58:02,143][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/save || /system/resource/update]}" onto public java.lang.Object com.huhy.springboot_easyui.easyui.controller.system.ResourceController.save(com.huhy.springboot_easyui.easyui.model.domain.Resource,org.springframework.validation.BindingResult)
+[2018-05-15 12:58:02,143][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/parent/tree]}" onto public java.lang.Iterable<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.ResourceController.parentTree()
+[2018-05-15 12:58:02,144][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.RoleController.index()
+[2018-05-15 12:58:02,144][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.RoleController.delete(java.lang.Long)
+[2018-05-15 12:58:02,145][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Role> com.huhy.springboot_easyui.easyui.controller.system.RoleController.list()
+[2018-05-15 12:58:02,145][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/save || /system/role/update]}" onto public java.lang.Object com.huhy.springboot_easyui.easyui.controller.system.RoleController.save(com.huhy.springboot_easyui.easyui.model.domain.Role,org.springframework.validation.BindingResult)
+[2018-05-15 12:58:02,145][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/resource/save]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.RoleController.resourceSave(java.lang.Long,java.lang.Long[])
+[2018-05-15 12:58:02,146][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/resource/tree]}" onto public java.lang.Iterable<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.RoleController.resourceTree()
+[2018-05-15 12:58:02,146][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/im/user/list]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.websocket.ImController.userList()
+[2018-05-15 12:58:02,146][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/im/send]}" onto public void com.huhy.springboot_easyui.easyui.controller.websocket.ImController.send(java.lang.Long,java.lang.String,com.huhy.springboot_easyui.easyui.model.domain.Member)
+[2018-05-15 12:58:02,147][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2018-05-15 12:58:02,148][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2018-05-15 12:58:02,170][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 12:58:02,171][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 12:58:02,198][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 12:58:02,346][INFO ] o.s.w.s.v.f.FreeMarkerConfigurer[127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[2018-05-15 12:58:02,493][INFO ] o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+[2018-05-15 12:58:02,562][INFO ] o.s.j.e.a.AnnotationMBeanExporter[431] - Registering beans for JMX exposure on startup
+[2018-05-15 12:58:02,567][INFO ] o.s.c.s.DefaultLifecycleProcessor[341] - Starting beans in phase 2147483647
+[2018-05-15 12:58:02,575][INFO ] o.a.c.h.Http11NioProtocol[180] - Starting ProtocolHandler ["http-nio-8080"]
+[2018-05-15 12:58:02,584][INFO ] o.a.t.u.n.NioSelectorPool[180] - Using a shared selector for servlet write/read
+[2018-05-15 12:58:02,595][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[216] - Tomcat started on port(s): 8080 (http)
+[2018-05-15 12:58:02,599][INFO ] c.h.s.SpringbootEasyuiApplication[57] - Started SpringbootEasyuiApplication in 11.076 seconds (JVM running for 11.468)
+[2018-05-15 12:58:19,575][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-05-15 12:58:19,575][INFO ] o.s.w.s.DispatcherServlet[489] - FrameworkServlet 'dispatcherServlet': initialization started
+[2018-05-15 12:58:19,588][INFO ] o.s.w.s.DispatcherServlet[508] - FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+[2018-05-15 12:58:38,004][INFO ] o.h.h.i.QueryTranslatorFactoryInitiator[47] - HHH000397: Using ASTQueryTranslatorFactory
+[2018-05-15 13:07:55,640][INFO ] c.h.s.SpringbootEasyuiApplication[48] - Starting SpringbootEasyuiApplication on PC-20171116TZRZ with PID 13624 (F:\IdeaWork\springboot_easyui\target\classes started by Administrator in F:\IdeaWork\springboot_easyui)
+[2018-05-15 13:07:55,641][INFO ] c.h.s.SpringbootEasyuiApplication[593] - No active profile set, falling back to default profiles: default
+[2018-05-15 13:07:55,681][INFO ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@325499cb: startup date [Tue May 15 13:07:55 CST 2018]; root of context hierarchy
+[2018-05-15 13:07:55,761][INFO ] o.h.v.i.util.Version[30] - HV000001: Hibernate Validator 5.3.6.Final
+[2018-05-15 13:07:56,828][INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f1ee4158] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-05-15 13:07:57,280][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[92] - Tomcat initialized with port(s): 8080 (http)
+[2018-05-15 13:07:57,291][INFO ] o.a.c.h.Http11NioProtocol[180] - Initializing ProtocolHandler ["http-nio-8080"]
+[2018-05-15 13:07:57,300][INFO ] o.a.c.c.StandardService[180] - Starting service [Tomcat]
+[2018-05-15 13:07:57,300][INFO ] o.a.c.c.StandardEngine[180] - Starting Servlet Engine: Apache Tomcat/8.5.31
+[2018-05-15 13:07:57,391][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring embedded WebApplicationContext
+[2018-05-15 13:07:57,391][INFO ] o.s.w.c.ContextLoader[276] - Root WebApplicationContext: initialization completed in 1710 ms
+[2018-05-15 13:07:57,528][INFO ] o.s.b.w.s.ServletRegistrationBean[190] - Mapping servlet: 'dispatcherServlet' to [/]
+[2018-05-15 13:07:57,532][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-05-15 13:07:57,532][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-05-15 13:07:57,533][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-05-15 13:07:57,533][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'requestContextFilter' to: [/*]
+[2018-05-15 13:07:59,889][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[356] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2018-05-15 13:07:59,899][INFO ] o.h.j.i.u.LogHelper[31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-05-15 13:07:59,947][INFO ] o.hibernate.Version[37] - HHH000412: Hibernate Core {5.0.12.Final}
+[2018-05-15 13:07:59,949][INFO ] o.h.cfg.Environment[198] - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.show_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.auto=update, hibernate.format_sql=true}
+[2018-05-15 13:07:59,949][INFO ] o.h.cfg.Environment[317] - HHH000021: Bytecode provider name : javassist
+[2018-05-15 13:07:59,981][INFO ] o.h.a.common.Version[66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-05-15 13:08:00,088][INFO ] o.h.dialect.Dialect[156] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2018-05-15 13:08:00,514][INFO ] o.h.t.h.SchemaUpdate[105] - HHH000228: Running hbm2ddl schema update
+[2018-05-15 13:08:05,646][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[414] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-15 13:08:05,947][INFO ] o.s.s.c.ThreadPoolTaskScheduler[165] - Initializing ExecutorService  'defaultSockJsTaskScheduler'
+[2018-05-15 13:08:05,980][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/ws/server] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+[2018-05-15 13:08:05,980][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/sockjs/server/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+[2018-05-15 13:08:06,318][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerAdapter[534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@325499cb: startup date [Tue May 15 13:07:55 CST 2018]; root of context hierarchy
+[2018-05-15 13:08:06,377][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.index()
+[2018-05-15 13:08:06,378][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reject]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.reject()
+[2018-05-15 13:08:06,380][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/resource]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.login(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+[2018-05-15 13:08:06,380][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/login]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.login(javax.servlet.http.HttpSession)
+[2018-05-15 13:08:06,380][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/logout]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.logout(javax.servlet.http.HttpSession)
+[2018-05-15 13:08:06,381][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.doLoin(java.lang.String,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+[2018-05-15 13:08:06,381][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reg],methods=[GET]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.toReg()
+[2018-05-15 13:08:06,381][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reg],methods=[POST]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.doReg(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+[2018-05-15 13:08:06,381][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/verify/code],methods=[GET]}" onto public void com.huhy.springboot_easyui.easyui.controller.AppController.verifyCode(javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+[2018-05-15 13:08:06,382][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/desktop]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.desktop()
+[2018-05-15 13:08:06,382][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/password]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.changePassword()
+[2018-05-15 13:08:06,382][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/password],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AppController.doChangePassword(com.huhy.springboot_easyui.easyui.model.domain.Member,java.lang.String,java.lang.String,java.lang.String)
+[2018-05-15 13:08:06,382][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/info]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.changeInfo()
+[2018-05-15 13:08:06,383][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/info],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AppController.doChangeInfo(com.huhy.springboot_easyui.easyui.model.domain.Member,com.huhy.springboot_easyui.easyui.model.domain.Member,javax.servlet.http.HttpSession)
+[2018-05-15 13:08:06,386][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/attachment/upload],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AttachmentController.upload(com.huhy.springboot_easyui.easyui.common.AttachmentType,com.huhy.springboot_easyui.easyui.model.domain.Member,org.springframework.web.multipart.MultipartFile)
+[2018-05-15 13:08:06,386][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/attachment/**],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.springframework.core.io.Resource> com.huhy.springboot_easyui.easyui.controller.AttachmentController.loadFile(javax.servlet.http.HttpServletRequest)
+[2018-05-15 13:08:06,388][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.MemberController.index()
+[2018-05-15 13:08:06,388][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/form]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.MemberController.form(java.lang.Long,org.springframework.ui.Model)
+[2018-05-15 13:08:06,389][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.delete(java.lang.Long)
+[2018-05-15 13:08:06,389][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/check]}" onto public boolean com.huhy.springboot_easyui.easyui.controller.system.MemberController.check(java.lang.String)
+[2018-05-15 13:08:06,389][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Member> com.huhy.springboot_easyui.easyui.controller.system.MemberController.list(int,int,java.lang.String,java.lang.String,java.lang.String)
+[2018-05-15 13:08:06,390][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/save || /system/member/update]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.save(com.huhy.springboot_easyui.easyui.model.domain.Member,java.lang.Long[],org.springframework.validation.BindingResult)
+[2018-05-15 13:08:06,390][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/roles]}" onto public java.util.List<com.huhy.springboot_easyui.easyui.model.domain.Role> com.huhy.springboot_easyui.easyui.controller.system.MemberController.roles()
+[2018-05-15 13:08:06,390][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/password/reset]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.resetPassword(java.lang.Long)
+[2018-05-15 13:08:06,391][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.ResourceController.index()
+[2018-05-15 13:08:06,391][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/form]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.ResourceController.form(java.lang.Long,org.springframework.ui.Model)
+[2018-05-15 13:08:06,392][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.ResourceController.delete(java.lang.Long)
+[2018-05-15 13:08:06,392][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.ResourceController.list()
+[2018-05-15 13:08:06,392][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/save || /system/resource/update]}" onto public java.lang.Object com.huhy.springboot_easyui.easyui.controller.system.ResourceController.save(com.huhy.springboot_easyui.easyui.model.domain.Resource,org.springframework.validation.BindingResult)
+[2018-05-15 13:08:06,393][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/parent/tree]}" onto public java.lang.Iterable<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.ResourceController.parentTree()
+[2018-05-15 13:08:06,393][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.RoleController.index()
+[2018-05-15 13:08:06,394][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.RoleController.delete(java.lang.Long)
+[2018-05-15 13:08:06,394][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Role> com.huhy.springboot_easyui.easyui.controller.system.RoleController.list()
+[2018-05-15 13:08:06,394][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/save || /system/role/update]}" onto public java.lang.Object com.huhy.springboot_easyui.easyui.controller.system.RoleController.save(com.huhy.springboot_easyui.easyui.model.domain.Role,org.springframework.validation.BindingResult)
+[2018-05-15 13:08:06,394][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/resource/save]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.RoleController.resourceSave(java.lang.Long,java.lang.Long[])
+[2018-05-15 13:08:06,395][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/resource/tree]}" onto public java.lang.Iterable<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.RoleController.resourceTree()
+[2018-05-15 13:08:06,395][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/im/user/list]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.websocket.ImController.userList()
+[2018-05-15 13:08:06,395][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/im/send]}" onto public void com.huhy.springboot_easyui.easyui.controller.websocket.ImController.send(java.lang.Long,java.lang.String,com.huhy.springboot_easyui.easyui.model.domain.Member)
+[2018-05-15 13:08:06,397][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2018-05-15 13:08:06,397][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2018-05-15 13:08:06,429][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 13:08:06,430][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 13:08:06,468][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 13:08:06,680][INFO ] o.s.w.s.v.f.FreeMarkerConfigurer[127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[2018-05-15 13:08:06,837][INFO ] o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+[2018-05-15 13:08:06,969][INFO ] o.s.j.e.a.AnnotationMBeanExporter[431] - Registering beans for JMX exposure on startup
+[2018-05-15 13:08:06,976][INFO ] o.s.c.s.DefaultLifecycleProcessor[341] - Starting beans in phase 2147483647
+[2018-05-15 13:08:06,983][INFO ] o.a.c.h.Http11NioProtocol[180] - Starting ProtocolHandler ["http-nio-8080"]
+[2018-05-15 13:08:06,992][INFO ] o.a.t.u.n.NioSelectorPool[180] - Using a shared selector for servlet write/read
+[2018-05-15 13:08:07,005][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[216] - Tomcat started on port(s): 8080 (http)
+[2018-05-15 13:08:07,009][INFO ] c.h.s.SpringbootEasyuiApplication[57] - Started SpringbootEasyuiApplication in 11.707 seconds (JVM running for 13.138)
+[2018-05-15 13:08:32,653][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-05-15 13:08:32,654][INFO ] o.s.w.s.DispatcherServlet[489] - FrameworkServlet 'dispatcherServlet': initialization started
+[2018-05-15 13:08:32,671][INFO ] o.s.w.s.DispatcherServlet[508] - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+[2018-05-15 13:08:45,801][INFO ] o.h.h.i.QueryTranslatorFactoryInitiator[47] - HHH000397: Using ASTQueryTranslatorFactory
+[2018-05-15 15:29:38,181][ERROR] o.a.c.c.C.[.[.[.[dispatcherServlet][182] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is javax.persistence.PersistenceException: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.] with root cause
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3731)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2512)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2482)
+	at com.mysql.jdbc.ConnectionImpl.setReadOnlyInternal(ConnectionImpl.java:4938)
+	at com.mysql.jdbc.ConnectionImpl.setReadOnly(ConnectionImpl.java:4931)
+	at sun.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.ProxyConnection.invoke(ProxyConnection.java:126)
+	at org.apache.tomcat.jdbc.pool.JdbcInterceptor.invoke(JdbcInterceptor.java:108)
+	at org.apache.tomcat.jdbc.pool.interceptor.AbstractCreateStatementInterceptor.invoke(AbstractCreateStatementInterceptor.java:79)
+	at org.apache.tomcat.jdbc.pool.JdbcInterceptor.invoke(JdbcInterceptor.java:108)
+	at org.apache.tomcat.jdbc.pool.DisposableConnectionFacade.invoke(DisposableConnectionFacade.java:81)
+	at com.sun.proxy.$Proxy76.setReadOnly(Unknown Source)
+	at org.springframework.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction(DataSourceUtils.java:155)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:178)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:380)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:377)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:461)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:277)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:671)
+	at com.huhy.springboot_easyui.easyui.controller.AppController$$EnhancerBySpringCGLIB$$9023ca1d.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-15 15:35:20,225][INFO ] c.h.s.SpringbootEasyuiApplication[48] - Starting SpringbootEasyuiApplication on PC-20171116TZRZ with PID 5952 (F:\IdeaWork\springboot_easyui\target\classes started by Administrator in F:\IdeaWork\springboot_easyui)
+[2018-05-15 15:35:20,226][INFO ] c.h.s.SpringbootEasyuiApplication[593] - No active profile set, falling back to default profiles: default
+[2018-05-15 15:35:20,324][INFO ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d4f878b: startup date [Tue May 15 15:35:20 CST 2018]; root of context hierarchy
+[2018-05-15 15:35:20,434][INFO ] o.h.v.i.util.Version[30] - HV000001: Hibernate Validator 5.3.6.Final
+[2018-05-15 15:35:21,259][INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$510b031b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-05-15 15:35:21,656][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[92] - Tomcat initialized with port(s): 8080 (http)
+[2018-05-15 15:35:21,668][INFO ] o.a.c.h.Http11NioProtocol[180] - Initializing ProtocolHandler ["http-nio-8080"]
+[2018-05-15 15:35:21,677][INFO ] o.a.c.c.StandardService[180] - Starting service [Tomcat]
+[2018-05-15 15:35:21,677][INFO ] o.a.c.c.StandardEngine[180] - Starting Servlet Engine: Apache Tomcat/8.5.31
+[2018-05-15 15:35:21,773][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring embedded WebApplicationContext
+[2018-05-15 15:35:21,773][INFO ] o.s.w.c.ContextLoader[276] - Root WebApplicationContext: initialization completed in 1449 ms
+[2018-05-15 15:35:21,884][INFO ] o.s.b.w.s.ServletRegistrationBean[190] - Mapping servlet: 'dispatcherServlet' to [/]
+[2018-05-15 15:35:21,887][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-05-15 15:35:21,888][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-05-15 15:35:21,888][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-05-15 15:35:21,888][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'requestContextFilter' to: [/*]
+[2018-05-15 15:35:24,562][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[356] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2018-05-15 15:35:24,572][INFO ] o.h.j.i.u.LogHelper[31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-05-15 15:35:24,645][INFO ] o.hibernate.Version[37] - HHH000412: Hibernate Core {5.0.12.Final}
+[2018-05-15 15:35:24,646][INFO ] o.h.cfg.Environment[198] - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.show_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.auto=update, hibernate.format_sql=true}
+[2018-05-15 15:35:24,647][INFO ] o.h.cfg.Environment[317] - HHH000021: Bytecode provider name : javassist
+[2018-05-15 15:35:24,673][INFO ] o.h.a.common.Version[66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-05-15 15:35:24,752][INFO ] o.h.dialect.Dialect[156] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2018-05-15 15:35:25,119][INFO ] o.h.t.h.SchemaUpdate[105] - HHH000228: Running hbm2ddl schema update
+[2018-05-15 15:35:30,275][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[414] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-15 15:35:30,569][INFO ] o.s.s.c.ThreadPoolTaskScheduler[165] - Initializing ExecutorService  'defaultSockJsTaskScheduler'
+[2018-05-15 15:35:30,594][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/ws/server] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+[2018-05-15 15:35:30,595][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/sockjs/server/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+[2018-05-15 15:35:30,871][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerAdapter[534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d4f878b: startup date [Tue May 15 15:35:20 CST 2018]; root of context hierarchy
+[2018-05-15 15:35:30,917][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.index()
+[2018-05-15 15:35:30,918][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reject]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.reject()
+[2018-05-15 15:35:30,919][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/resource]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.login(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+[2018-05-15 15:35:30,920][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/login]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.login(javax.servlet.http.HttpSession)
+[2018-05-15 15:35:30,920][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/logout]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.logout(javax.servlet.http.HttpSession)
+[2018-05-15 15:35:30,920][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.doLoin(java.lang.String,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+[2018-05-15 15:35:30,921][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reg],methods=[GET]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.toReg()
+[2018-05-15 15:35:30,921][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reg],methods=[POST]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.doReg(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+[2018-05-15 15:35:30,921][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/verify/code],methods=[GET]}" onto public void com.huhy.springboot_easyui.easyui.controller.AppController.verifyCode(javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+[2018-05-15 15:35:30,921][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/desktop]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.desktop()
+[2018-05-15 15:35:30,922][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/password]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.changePassword()
+[2018-05-15 15:35:30,922][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/password],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AppController.doChangePassword(com.huhy.springboot_easyui.easyui.model.domain.Member,java.lang.String,java.lang.String,java.lang.String)
+[2018-05-15 15:35:30,922][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/info]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.changeInfo()
+[2018-05-15 15:35:30,922][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/info],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AppController.doChangeInfo(com.huhy.springboot_easyui.easyui.model.domain.Member,com.huhy.springboot_easyui.easyui.model.domain.Member,javax.servlet.http.HttpSession)
+[2018-05-15 15:35:30,926][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/attachment/upload],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AttachmentController.upload(com.huhy.springboot_easyui.easyui.common.AttachmentType,com.huhy.springboot_easyui.easyui.model.domain.Member,org.springframework.web.multipart.MultipartFile)
+[2018-05-15 15:35:30,926][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/attachment/**],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.springframework.core.io.Resource> com.huhy.springboot_easyui.easyui.controller.AttachmentController.loadFile(javax.servlet.http.HttpServletRequest)
+[2018-05-15 15:35:30,928][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.MemberController.index()
+[2018-05-15 15:35:30,928][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/form]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.MemberController.form(java.lang.Long,org.springframework.ui.Model)
+[2018-05-15 15:35:30,928][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.delete(java.lang.Long)
+[2018-05-15 15:35:30,929][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/check]}" onto public boolean com.huhy.springboot_easyui.easyui.controller.system.MemberController.check(java.lang.String)
+[2018-05-15 15:35:30,929][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Member> com.huhy.springboot_easyui.easyui.controller.system.MemberController.list(int,int,java.lang.String,java.lang.String,java.lang.String)
+[2018-05-15 15:35:30,929][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/save || /system/member/update]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.save(com.huhy.springboot_easyui.easyui.model.domain.Member,java.lang.Long[],org.springframework.validation.BindingResult)
+[2018-05-15 15:35:30,929][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/roles]}" onto public java.util.List<com.huhy.springboot_easyui.easyui.model.domain.Role> com.huhy.springboot_easyui.easyui.controller.system.MemberController.roles()
+[2018-05-15 15:35:30,930][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/password/reset]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.resetPassword(java.lang.Long)
+[2018-05-15 15:35:30,931][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.ResourceController.index()
+[2018-05-15 15:35:30,931][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/form]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.ResourceController.form(java.lang.Long,org.springframework.ui.Model)
+[2018-05-15 15:35:30,931][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.ResourceController.delete(java.lang.Long)
+[2018-05-15 15:35:30,932][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.ResourceController.list()
+[2018-05-15 15:35:30,932][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/save || /system/resource/update]}" onto public java.lang.Object com.huhy.springboot_easyui.easyui.controller.system.ResourceController.save(com.huhy.springboot_easyui.easyui.model.domain.Resource,org.springframework.validation.BindingResult)
+[2018-05-15 15:35:30,932][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/parent/tree]}" onto public java.lang.Iterable<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.ResourceController.parentTree()
+[2018-05-15 15:35:30,933][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.RoleController.index()
+[2018-05-15 15:35:30,933][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.RoleController.delete(java.lang.Long)
+[2018-05-15 15:35:30,934][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Role> com.huhy.springboot_easyui.easyui.controller.system.RoleController.list()
+[2018-05-15 15:35:30,934][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/save || /system/role/update]}" onto public java.lang.Object com.huhy.springboot_easyui.easyui.controller.system.RoleController.save(com.huhy.springboot_easyui.easyui.model.domain.Role,org.springframework.validation.BindingResult)
+[2018-05-15 15:35:30,934][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/resource/save]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.RoleController.resourceSave(java.lang.Long,java.lang.Long[])
+[2018-05-15 15:35:30,934][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/resource/tree]}" onto public java.lang.Iterable<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.RoleController.resourceTree()
+[2018-05-15 15:35:30,935][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/im/user/list]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.websocket.ImController.userList()
+[2018-05-15 15:35:30,935][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/im/send]}" onto public void com.huhy.springboot_easyui.easyui.controller.websocket.ImController.send(java.lang.Long,java.lang.String,com.huhy.springboot_easyui.easyui.model.domain.Member)
+[2018-05-15 15:35:30,936][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2018-05-15 15:35:30,937][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2018-05-15 15:35:30,960][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 15:35:30,960][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 15:35:30,987][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 15:35:31,207][INFO ] o.s.w.s.v.f.FreeMarkerConfigurer[127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[2018-05-15 15:35:31,376][WARN ] o.s.b.d.a.OptionalLiveReloadServer[62] - Unable to start LiveReload server
+[2018-05-15 15:35:31,419][INFO ] o.s.j.e.a.AnnotationMBeanExporter[431] - Registering beans for JMX exposure on startup
+[2018-05-15 15:35:31,435][INFO ] o.s.c.s.DefaultLifecycleProcessor[341] - Starting beans in phase 2147483647
+[2018-05-15 15:35:31,441][INFO ] o.a.c.h.Http11NioProtocol[180] - Starting ProtocolHandler ["http-nio-8080"]
+[2018-05-15 15:35:31,445][ERROR] o.a.c.c.StandardService[182] - Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:265)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:208)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.huhy.springboot_easyui.SpringbootEasyuiApplication.main(SpringbootEasyuiApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 19 common frames omitted
+[2018-05-15 15:35:31,448][INFO ] o.a.c.h.Http11NioProtocol[180] - Pausing ProtocolHandler ["http-nio-8080"]
+[2018-05-15 15:35:31,448][INFO ] o.a.c.c.StandardService[180] - Stopping service [Tomcat]
+[2018-05-15 15:35:31,454][INFO ] o.a.c.u.LifecycleBase[180] - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[2018-05-15 15:35:31,454][INFO ] o.a.c.h.Http11NioProtocol[180] - Stopping ProtocolHandler ["http-nio-8080"]
+[2018-05-15 15:35:31,454][INFO ] o.a.c.h.Http11NioProtocol[180] - Destroying ProtocolHandler ["http-nio-8080"]
+[2018-05-15 15:35:31,456][INFO ] o.s.b.a.l.AutoConfigurationReportLoggingInitializer[101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2018-05-15 15:35:31,467][ERROR] o.s.b.d.LoggingFailureAnalysisReporter[42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+[2018-05-15 15:35:31,468][INFO ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d4f878b: startup date [Tue May 15 15:35:20 CST 2018]; root of context hierarchy
+[2018-05-15 15:35:31,469][INFO ] o.s.c.s.DefaultLifecycleProcessor[356] - Stopping beans in phase 2147483647
+[2018-05-15 15:35:31,480][INFO ] o.s.j.e.a.AnnotationMBeanExporter[449] - Unregistering JMX-exposed beans on shutdown
+[2018-05-15 15:35:31,481][INFO ] o.s.s.c.ThreadPoolTaskScheduler[202] - Shutting down ExecutorService 'defaultSockJsTaskScheduler'
+[2018-05-15 15:35:31,482][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[590] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-15 15:35:37,999][ERROR] o.a.c.c.C.[.[.[.[dispatcherServlet][182] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is javax.persistence.PersistenceException: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.] with root cause
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:3731)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2512)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2482)
+	at com.mysql.jdbc.ConnectionImpl.setReadOnlyInternal(ConnectionImpl.java:4938)
+	at com.mysql.jdbc.ConnectionImpl.setReadOnly(ConnectionImpl.java:4931)
+	at sun.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.ProxyConnection.invoke(ProxyConnection.java:126)
+	at org.apache.tomcat.jdbc.pool.JdbcInterceptor.invoke(JdbcInterceptor.java:108)
+	at org.apache.tomcat.jdbc.pool.interceptor.AbstractCreateStatementInterceptor.invoke(AbstractCreateStatementInterceptor.java:79)
+	at org.apache.tomcat.jdbc.pool.JdbcInterceptor.invoke(JdbcInterceptor.java:108)
+	at org.apache.tomcat.jdbc.pool.DisposableConnectionFacade.invoke(DisposableConnectionFacade.java:81)
+	at com.sun.proxy.$Proxy76.setReadOnly(Unknown Source)
+	at org.springframework.jdbc.datasource.DataSourceUtils.prepareConnectionForTransaction(DataSourceUtils.java:155)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:178)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:380)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:377)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:461)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:277)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:671)
+	at com.huhy.springboot_easyui.easyui.controller.AppController$$EnhancerBySpringCGLIB$$9023ca1d.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-05-15 15:38:42,954][INFO ] c.h.s.SpringbootEasyuiApplication[48] - Starting SpringbootEasyuiApplication on PC-20171116TZRZ with PID 6900 (F:\IdeaWork\springboot_easyui\target\classes started by Administrator in F:\IdeaWork\springboot_easyui)
+[2018-05-15 15:38:42,955][INFO ] c.h.s.SpringbootEasyuiApplication[593] - No active profile set, falling back to default profiles: default
+[2018-05-15 15:38:43,211][INFO ] o.h.v.i.util.Version[30] - HV000001: Hibernate Validator 5.3.6.Final
+[2018-05-15 15:38:43,209][INFO ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@691e2be: startup date [Tue May 15 15:38:43 CST 2018]; root of context hierarchy
+[2018-05-15 15:38:44,169][INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fa503d2b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-05-15 15:38:44,588][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[92] - Tomcat initialized with port(s): 8080 (http)
+[2018-05-15 15:38:44,598][INFO ] o.a.c.h.Http11NioProtocol[180] - Initializing ProtocolHandler ["http-nio-8080"]
+[2018-05-15 15:38:44,606][INFO ] o.a.c.c.StandardService[180] - Starting service [Tomcat]
+[2018-05-15 15:38:44,606][INFO ] o.a.c.c.StandardEngine[180] - Starting Servlet Engine: Apache Tomcat/8.5.31
+[2018-05-15 15:38:44,689][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring embedded WebApplicationContext
+[2018-05-15 15:38:44,689][INFO ] o.s.w.c.ContextLoader[276] - Root WebApplicationContext: initialization completed in 1481 ms
+[2018-05-15 15:38:44,804][INFO ] o.s.b.w.s.ServletRegistrationBean[190] - Mapping servlet: 'dispatcherServlet' to [/]
+[2018-05-15 15:38:44,808][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-05-15 15:38:44,808][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-05-15 15:38:44,808][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-05-15 15:38:44,808][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'requestContextFilter' to: [/*]
+[2018-05-15 15:38:47,171][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[356] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2018-05-15 15:38:47,180][INFO ] o.h.j.i.u.LogHelper[31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-05-15 15:38:47,239][INFO ] o.hibernate.Version[37] - HHH000412: Hibernate Core {5.0.12.Final}
+[2018-05-15 15:38:47,241][INFO ] o.h.cfg.Environment[198] - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.show_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.auto=update, hibernate.format_sql=true}
+[2018-05-15 15:38:47,241][INFO ] o.h.cfg.Environment[317] - HHH000021: Bytecode provider name : javassist
+[2018-05-15 15:38:47,267][INFO ] o.h.a.common.Version[66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-05-15 15:38:47,352][INFO ] o.h.dialect.Dialect[156] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2018-05-15 15:38:47,738][INFO ] o.h.t.h.SchemaUpdate[105] - HHH000228: Running hbm2ddl schema update
+[2018-05-15 15:38:53,039][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[414] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-15 15:38:53,302][INFO ] o.s.s.c.ThreadPoolTaskScheduler[165] - Initializing ExecutorService  'defaultSockJsTaskScheduler'
+[2018-05-15 15:38:53,327][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/ws/server] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+[2018-05-15 15:38:53,328][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/sockjs/server/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+[2018-05-15 15:38:53,608][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerAdapter[534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@691e2be: startup date [Tue May 15 15:38:43 CST 2018]; root of context hierarchy
+[2018-05-15 15:38:53,654][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.index()
+[2018-05-15 15:38:53,655][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reject]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.reject()
+[2018-05-15 15:38:53,656][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/resource]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.login(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+[2018-05-15 15:38:53,657][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/login]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.login(javax.servlet.http.HttpSession)
+[2018-05-15 15:38:53,657][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/logout]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.logout(javax.servlet.http.HttpSession)
+[2018-05-15 15:38:53,657][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.doLoin(java.lang.String,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+[2018-05-15 15:38:53,657][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reg],methods=[GET]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.toReg()
+[2018-05-15 15:38:53,658][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reg],methods=[POST]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.doReg(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+[2018-05-15 15:38:53,658][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/verify/code],methods=[GET]}" onto public void com.huhy.springboot_easyui.easyui.controller.AppController.verifyCode(javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+[2018-05-15 15:38:53,658][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/desktop]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.desktop()
+[2018-05-15 15:38:53,658][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/password]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.changePassword()
+[2018-05-15 15:38:53,659][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/password],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AppController.doChangePassword(com.huhy.springboot_easyui.easyui.model.domain.Member,java.lang.String,java.lang.String,java.lang.String)
+[2018-05-15 15:38:53,659][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/info]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.changeInfo()
+[2018-05-15 15:38:53,659][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/info],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AppController.doChangeInfo(com.huhy.springboot_easyui.easyui.model.domain.Member,com.huhy.springboot_easyui.easyui.model.domain.Member,javax.servlet.http.HttpSession)
+[2018-05-15 15:38:53,662][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/attachment/upload],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AttachmentController.upload(com.huhy.springboot_easyui.easyui.common.AttachmentType,com.huhy.springboot_easyui.easyui.model.domain.Member,org.springframework.web.multipart.MultipartFile)
+[2018-05-15 15:38:53,662][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/attachment/**],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.springframework.core.io.Resource> com.huhy.springboot_easyui.easyui.controller.AttachmentController.loadFile(javax.servlet.http.HttpServletRequest)
+[2018-05-15 15:38:53,664][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.MemberController.index()
+[2018-05-15 15:38:53,665][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/form]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.MemberController.form(java.lang.Long,org.springframework.ui.Model)
+[2018-05-15 15:38:53,665][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.delete(java.lang.Long)
+[2018-05-15 15:38:53,665][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/check]}" onto public boolean com.huhy.springboot_easyui.easyui.controller.system.MemberController.check(java.lang.String)
+[2018-05-15 15:38:53,666][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Member> com.huhy.springboot_easyui.easyui.controller.system.MemberController.list(int,int,java.lang.String,java.lang.String,java.lang.String)
+[2018-05-15 15:38:53,666][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/save || /system/member/update]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.save(com.huhy.springboot_easyui.easyui.model.domain.Member,java.lang.Long[],org.springframework.validation.BindingResult)
+[2018-05-15 15:38:53,666][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/roles]}" onto public java.util.List<com.huhy.springboot_easyui.easyui.model.domain.Role> com.huhy.springboot_easyui.easyui.controller.system.MemberController.roles()
+[2018-05-15 15:38:53,666][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/password/reset]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.resetPassword(java.lang.Long)
+[2018-05-15 15:38:53,667][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.ResourceController.index()
+[2018-05-15 15:38:53,667][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/form]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.ResourceController.form(java.lang.Long,org.springframework.ui.Model)
+[2018-05-15 15:38:53,668][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.ResourceController.delete(java.lang.Long)
+[2018-05-15 15:38:53,668][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.ResourceController.list()
+[2018-05-15 15:38:53,668][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/save || /system/resource/update]}" onto public java.lang.Object com.huhy.springboot_easyui.easyui.controller.system.ResourceController.save(com.huhy.springboot_easyui.easyui.model.domain.Resource,org.springframework.validation.BindingResult)
+[2018-05-15 15:38:53,668][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/parent/tree]}" onto public java.lang.Iterable<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.ResourceController.parentTree()
+[2018-05-15 15:38:53,669][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.RoleController.index()
+[2018-05-15 15:38:53,670][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.RoleController.delete(java.lang.Long)
+[2018-05-15 15:38:53,670][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Role> com.huhy.springboot_easyui.easyui.controller.system.RoleController.list()
+[2018-05-15 15:38:53,671][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/save || /system/role/update]}" onto public java.lang.Object com.huhy.springboot_easyui.easyui.controller.system.RoleController.save(com.huhy.springboot_easyui.easyui.model.domain.Role,org.springframework.validation.BindingResult)
+[2018-05-15 15:38:53,671][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/resource/save]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.RoleController.resourceSave(java.lang.Long,java.lang.Long[])
+[2018-05-15 15:38:53,671][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/resource/tree]}" onto public java.lang.Iterable<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.RoleController.resourceTree()
+[2018-05-15 15:38:53,672][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/im/user/list]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.websocket.ImController.userList()
+[2018-05-15 15:38:53,672][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/im/send]}" onto public void com.huhy.springboot_easyui.easyui.controller.websocket.ImController.send(java.lang.Long,java.lang.String,com.huhy.springboot_easyui.easyui.model.domain.Member)
+[2018-05-15 15:38:53,673][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2018-05-15 15:38:53,674][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2018-05-15 15:38:53,697][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 15:38:53,697][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 15:38:53,725][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-15 15:38:53,870][INFO ] o.s.w.s.v.f.FreeMarkerConfigurer[127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[2018-05-15 15:38:54,018][INFO ] o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+[2018-05-15 15:38:54,065][INFO ] o.s.j.e.a.AnnotationMBeanExporter[431] - Registering beans for JMX exposure on startup
+[2018-05-15 15:38:54,071][INFO ] o.s.c.s.DefaultLifecycleProcessor[341] - Starting beans in phase 2147483647
+[2018-05-15 15:38:54,079][INFO ] o.a.c.h.Http11NioProtocol[180] - Starting ProtocolHandler ["http-nio-8080"]
+[2018-05-15 15:38:54,089][INFO ] o.a.t.u.n.NioSelectorPool[180] - Using a shared selector for servlet write/read
+[2018-05-15 15:38:54,100][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[216] - Tomcat started on port(s): 8080 (http)
+[2018-05-15 15:38:54,105][INFO ] c.h.s.SpringbootEasyuiApplication[57] - Started SpringbootEasyuiApplication in 11.521 seconds (JVM running for 11.891)
+[2018-05-15 15:39:01,239][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-05-15 15:39:01,239][INFO ] o.s.w.s.DispatcherServlet[489] - FrameworkServlet 'dispatcherServlet': initialization started
+[2018-05-15 15:39:01,251][INFO ] o.s.w.s.DispatcherServlet[508] - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms

@@ -1,0 +1,367 @@
+[2018-05-14 09:54:12,026][INFO ] c.h.s.SpringbootEasyuiApplication[48] - Starting SpringbootEasyuiApplication on PC-20180427VENM with PID 748 (E:\IDE\workspace\workspace_self\springboot_easyui\target\classes started by Administrator in E:\IDE\workspace\workspace_self\springboot_easyui)
+[2018-05-14 09:54:12,029][INFO ] c.h.s.SpringbootEasyuiApplication[593] - No active profile set, falling back to default profiles: default
+[2018-05-14 09:54:12,148][INFO ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7655ecb9: startup date [Mon May 14 09:54:12 CST 2018]; root of context hierarchy
+[2018-05-14 09:54:12,457][INFO ] o.h.v.i.util.Version[30] - HV000001: Hibernate Validator 5.3.6.Final
+[2018-05-14 09:54:13,250][WARN ] o.m.s.m.ClassPathMapperScanner[166] - No MyBatis mapper was found in '[com.huhy.springboot_easyui.project.dao.pri]' package. Please check your configuration.
+[2018-05-14 09:54:13,251][WARN ] o.m.s.m.ClassPathMapperScanner[166] - No MyBatis mapper was found in '[com.huhy.springboot_easyui.project.dao.oth1]' package. Please check your configuration.
+[2018-05-14 09:54:15,115][INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fac5ba80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-05-14 09:54:16,779][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[92] - Tomcat initialized with port(s): 8080 (http)
+[2018-05-14 09:54:16,816][INFO ] o.a.c.h.Http11NioProtocol[180] - Initializing ProtocolHandler ["http-nio-8080"]
+[2018-05-14 09:54:16,848][INFO ] o.a.c.c.StandardService[180] - Starting service [Tomcat]
+[2018-05-14 09:54:16,850][INFO ] o.a.c.c.StandardEngine[180] - Starting Servlet Engine: Apache Tomcat/8.5.31
+[2018-05-14 09:54:17,340][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring embedded WebApplicationContext
+[2018-05-14 09:54:17,341][INFO ] o.s.w.c.ContextLoader[276] - Root WebApplicationContext: initialization completed in 5193 ms
+[2018-05-14 09:54:17,805][INFO ] o.s.b.w.s.ServletRegistrationBean[190] - Mapping servlet: 'dispatcherServlet' to [/]
+[2018-05-14 09:54:17,818][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-05-14 09:54:17,820][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-05-14 09:54:17,821][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-05-14 09:54:17,821][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'requestContextFilter' to: [/*]
+[2018-05-14 09:54:19,473][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[356] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2018-05-14 09:54:19,508][INFO ] o.h.j.i.u.LogHelper[31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-05-14 09:54:19,698][INFO ] o.hibernate.Version[37] - HHH000412: Hibernate Core {5.0.12.Final}
+[2018-05-14 09:54:19,706][INFO ] o.h.cfg.Environment[198] - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.show_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.auto=update, hibernate.format_sql=true}
+[2018-05-14 09:54:19,708][INFO ] o.h.cfg.Environment[317] - HHH000021: Bytecode provider name : javassist
+[2018-05-14 09:54:19,821][INFO ] o.h.a.common.Version[66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-05-14 09:54:20,770][INFO ] o.h.dialect.Dialect[156] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2018-05-14 09:54:22,182][INFO ] o.h.t.h.SchemaUpdate[105] - HHH000228: Running hbm2ddl schema update
+[2018-05-14 09:54:26,345][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[414] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-14 09:54:27,416][INFO ] o.s.s.c.ThreadPoolTaskScheduler[165] - Initializing ExecutorService  'defaultSockJsTaskScheduler'
+[2018-05-14 09:54:27,517][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/ws/server] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+[2018-05-14 09:54:27,518][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/sockjs/server/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+[2018-05-14 09:54:27,543][WARN ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[551] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'test1SqlSessionFactory' defined in class path resource [com/huhy/springboot_easyui/project/config/DataSource1Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'testSqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/pri/] cannot be resolved to URL because it does not exist
+[2018-05-14 09:54:27,544][INFO ] o.s.s.c.ThreadPoolTaskScheduler[202] - Shutting down ExecutorService 'defaultSockJsTaskScheduler'
+[2018-05-14 09:54:27,547][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[590] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-14 09:54:27,564][INFO ] o.a.c.c.StandardService[180] - Stopping service [Tomcat]
+[2018-05-14 09:54:27,607][INFO ] o.s.b.a.l.AutoConfigurationReportLoggingInitializer[101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2018-05-14 09:54:27,628][ERROR] o.s.b.SpringApplication[771] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'test1SqlSessionFactory' defined in class path resource [com/huhy/springboot_easyui/project/config/DataSource1Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'testSqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/pri/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1181)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1075)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.huhy.springboot_easyui.SpringbootEasyuiApplication.main(SpringbootEasyuiApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'testSqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/pri/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 23 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [mapper/pri/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:187)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:492)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:293)
+	at com.huhy.springboot_easyui.project.config.DataSource1Config.testSqlSessionFactory(DataSource1Config.java:51)
+	at com.huhy.springboot_easyui.project.config.DataSource1Config$$EnhancerBySpringCGLIB$$a962917.CGLIB$testSqlSessionFactory$1(<generated>)
+	at com.huhy.springboot_easyui.project.config.DataSource1Config$$EnhancerBySpringCGLIB$$a962917$$FastClassBySpringCGLIB$$a103e284.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at com.huhy.springboot_easyui.project.config.DataSource1Config$$EnhancerBySpringCGLIB$$a962917.testSqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 24 common frames omitted
+[2018-05-14 09:55:33,094][INFO ] c.h.s.SpringbootEasyuiApplication[48] - Starting SpringbootEasyuiApplication on PC-20180427VENM with PID 3468 (E:\IDE\workspace\workspace_self\springboot_easyui\target\classes started by Administrator in E:\IDE\workspace\workspace_self\springboot_easyui)
+[2018-05-14 09:55:33,097][INFO ] c.h.s.SpringbootEasyuiApplication[593] - No active profile set, falling back to default profiles: default
+[2018-05-14 09:55:33,195][INFO ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a66baf7: startup date [Mon May 14 09:55:33 CST 2018]; root of context hierarchy
+[2018-05-14 09:55:33,494][INFO ] o.h.v.i.util.Version[30] - HV000001: Hibernate Validator 5.3.6.Final
+[2018-05-14 09:55:34,582][WARN ] o.m.s.m.ClassPathMapperScanner[166] - No MyBatis mapper was found in '[com.huhy.springboot_easyui.project.dao.pri]' package. Please check your configuration.
+[2018-05-14 09:55:34,585][WARN ] o.m.s.m.ClassPathMapperScanner[166] - No MyBatis mapper was found in '[com.huhy.springboot_easyui.project.dao.oth1]' package. Please check your configuration.
+[2018-05-14 09:55:37,071][INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$71162c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-05-14 09:55:38,737][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[92] - Tomcat initialized with port(s): 8080 (http)
+[2018-05-14 09:55:38,777][INFO ] o.a.c.h.Http11NioProtocol[180] - Initializing ProtocolHandler ["http-nio-8080"]
+[2018-05-14 09:55:38,808][INFO ] o.a.c.c.StandardService[180] - Starting service [Tomcat]
+[2018-05-14 09:55:38,809][INFO ] o.a.c.c.StandardEngine[180] - Starting Servlet Engine: Apache Tomcat/8.5.31
+[2018-05-14 09:55:39,275][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring embedded WebApplicationContext
+[2018-05-14 09:55:39,276][INFO ] o.s.w.c.ContextLoader[276] - Root WebApplicationContext: initialization completed in 6081 ms
+[2018-05-14 09:55:39,738][INFO ] o.s.b.w.s.ServletRegistrationBean[190] - Mapping servlet: 'dispatcherServlet' to [/]
+[2018-05-14 09:55:39,752][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-05-14 09:55:39,753][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-05-14 09:55:39,754][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-05-14 09:55:39,755][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'requestContextFilter' to: [/*]
+[2018-05-14 09:55:41,423][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[356] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2018-05-14 09:55:41,458][INFO ] o.h.j.i.u.LogHelper[31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-05-14 09:55:41,639][INFO ] o.hibernate.Version[37] - HHH000412: Hibernate Core {5.0.12.Final}
+[2018-05-14 09:55:41,646][INFO ] o.h.cfg.Environment[198] - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.show_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.auto=update, hibernate.format_sql=true}
+[2018-05-14 09:55:41,648][INFO ] o.h.cfg.Environment[317] - HHH000021: Bytecode provider name : javassist
+[2018-05-14 09:55:41,767][INFO ] o.h.a.common.Version[66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-05-14 09:55:42,689][INFO ] o.h.dialect.Dialect[156] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2018-05-14 09:55:44,213][INFO ] o.h.t.h.SchemaUpdate[105] - HHH000228: Running hbm2ddl schema update
+[2018-05-14 09:55:47,330][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[414] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-14 09:55:48,315][INFO ] o.s.s.c.ThreadPoolTaskScheduler[165] - Initializing ExecutorService  'defaultSockJsTaskScheduler'
+[2018-05-14 09:55:48,418][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/ws/server] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+[2018-05-14 09:55:48,420][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/sockjs/server/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+[2018-05-14 09:55:48,444][WARN ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[551] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'test1SqlSessionFactory' defined in class path resource [com/huhy/springboot_easyui/project/config/DataSource1Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'testSqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/pri/] cannot be resolved to URL because it does not exist
+[2018-05-14 09:55:48,445][INFO ] o.s.s.c.ThreadPoolTaskScheduler[202] - Shutting down ExecutorService 'defaultSockJsTaskScheduler'
+[2018-05-14 09:55:48,448][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[590] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-14 09:55:48,464][INFO ] o.a.c.c.StandardService[180] - Stopping service [Tomcat]
+[2018-05-14 09:55:48,506][INFO ] o.s.b.a.l.AutoConfigurationReportLoggingInitializer[101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2018-05-14 09:55:48,526][ERROR] o.s.b.SpringApplication[771] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'test1SqlSessionFactory' defined in class path resource [com/huhy/springboot_easyui/project/config/DataSource1Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'testSqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/pri/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1181)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1075)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.huhy.springboot_easyui.SpringbootEasyuiApplication.main(SpringbootEasyuiApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'testSqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/pri/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 23 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [mapper/pri/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:187)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:492)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:293)
+	at com.huhy.springboot_easyui.project.config.DataSource1Config.testSqlSessionFactory(DataSource1Config.java:51)
+	at com.huhy.springboot_easyui.project.config.DataSource1Config$$EnhancerBySpringCGLIB$$16e1d159.CGLIB$testSqlSessionFactory$1(<generated>)
+	at com.huhy.springboot_easyui.project.config.DataSource1Config$$EnhancerBySpringCGLIB$$16e1d159$$FastClassBySpringCGLIB$$b6c68c09.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at com.huhy.springboot_easyui.project.config.DataSource1Config$$EnhancerBySpringCGLIB$$16e1d159.testSqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 24 common frames omitted
+[2018-05-14 09:58:18,166][INFO ] c.h.s.SpringbootEasyuiApplication[48] - Starting SpringbootEasyuiApplication on PC-20180427VENM with PID 5456 (E:\IDE\workspace\workspace_self\springboot_easyui\target\classes started by Administrator in E:\IDE\workspace\workspace_self\springboot_easyui)
+[2018-05-14 09:58:18,169][INFO ] c.h.s.SpringbootEasyuiApplication[593] - No active profile set, falling back to default profiles: default
+[2018-05-14 09:58:18,511][INFO ] o.h.v.i.util.Version[30] - HV000001: Hibernate Validator 5.3.6.Final
+[2018-05-14 09:58:18,535][INFO ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@88a1679: startup date [Mon May 14 09:58:18 CST 2018]; root of context hierarchy
+[2018-05-14 09:58:19,555][WARN ] o.m.s.m.ClassPathMapperScanner[166] - No MyBatis mapper was found in '[com.huhy.springboot_easyui.project.dao.oth1]' package. Please check your configuration.
+[2018-05-14 09:58:21,240][INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3e554ea5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-05-14 09:58:22,881][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[92] - Tomcat initialized with port(s): 8080 (http)
+[2018-05-14 09:58:22,920][INFO ] o.a.c.h.Http11NioProtocol[180] - Initializing ProtocolHandler ["http-nio-8080"]
+[2018-05-14 09:58:22,951][INFO ] o.a.c.c.StandardService[180] - Starting service [Tomcat]
+[2018-05-14 09:58:22,952][INFO ] o.a.c.c.StandardEngine[180] - Starting Servlet Engine: Apache Tomcat/8.5.31
+[2018-05-14 09:58:23,417][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring embedded WebApplicationContext
+[2018-05-14 09:58:23,418][INFO ] o.s.w.c.ContextLoader[276] - Root WebApplicationContext: initialization completed in 4883 ms
+[2018-05-14 09:58:23,884][INFO ] o.s.b.w.s.ServletRegistrationBean[190] - Mapping servlet: 'dispatcherServlet' to [/]
+[2018-05-14 09:58:23,897][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-05-14 09:58:23,899][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-05-14 09:58:23,900][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-05-14 09:58:23,901][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'requestContextFilter' to: [/*]
+[2018-05-14 09:58:25,565][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[356] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2018-05-14 09:58:25,601][INFO ] o.h.j.i.u.LogHelper[31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-05-14 09:58:25,778][INFO ] o.hibernate.Version[37] - HHH000412: Hibernate Core {5.0.12.Final}
+[2018-05-14 09:58:25,786][INFO ] o.h.cfg.Environment[198] - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.show_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.auto=update, hibernate.format_sql=true}
+[2018-05-14 09:58:25,788][INFO ] o.h.cfg.Environment[317] - HHH000021: Bytecode provider name : javassist
+[2018-05-14 09:58:25,907][INFO ] o.h.a.common.Version[66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-05-14 09:58:26,857][INFO ] o.h.dialect.Dialect[156] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2018-05-14 09:58:28,306][INFO ] o.h.t.h.SchemaUpdate[105] - HHH000228: Running hbm2ddl schema update
+[2018-05-14 09:58:31,544][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[414] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-14 09:58:32,654][INFO ] o.s.s.c.ThreadPoolTaskScheduler[165] - Initializing ExecutorService  'defaultSockJsTaskScheduler'
+[2018-05-14 09:58:32,756][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/ws/server] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+[2018-05-14 09:58:32,757][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/sockjs/server/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+[2018-05-14 09:58:33,158][WARN ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[551] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'test2SqlSessionFactory' defined in class path resource [com/huhy/springboot_easyui/project/config/DataSource2Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'testSqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/oth1//] cannot be resolved to URL because it does not exist
+[2018-05-14 09:58:33,159][INFO ] o.s.s.c.ThreadPoolTaskScheduler[202] - Shutting down ExecutorService 'defaultSockJsTaskScheduler'
+[2018-05-14 09:58:33,162][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[590] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-14 09:58:33,180][INFO ] o.a.c.c.StandardService[180] - Stopping service [Tomcat]
+[2018-05-14 09:58:33,224][INFO ] o.s.b.a.l.AutoConfigurationReportLoggingInitializer[101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2018-05-14 09:58:33,246][ERROR] o.s.b.SpringApplication[771] - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'test2SqlSessionFactory' defined in class path resource [com/huhy/springboot_easyui/project/config/DataSource2Config.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'testSqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/oth1//] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1181)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1075)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.huhy.springboot_easyui.SpringbootEasyuiApplication.main(SpringbootEasyuiApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'testSqlSessionFactory' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/oth1//] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 23 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [mapper/oth1//] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:187)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:492)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:293)
+	at com.huhy.springboot_easyui.project.config.DataSource2Config.testSqlSessionFactory(DataSource2Config.java:39)
+	at com.huhy.springboot_easyui.project.config.DataSource2Config$$EnhancerBySpringCGLIB$$9e6fc39d.CGLIB$testSqlSessionFactory$1(<generated>)
+	at com.huhy.springboot_easyui.project.config.DataSource2Config$$EnhancerBySpringCGLIB$$9e6fc39d$$FastClassBySpringCGLIB$$b5e9711d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at com.huhy.springboot_easyui.project.config.DataSource2Config$$EnhancerBySpringCGLIB$$9e6fc39d.testSqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 24 common frames omitted
+[2018-05-14 09:59:54,181][INFO ] c.h.s.SpringbootEasyuiApplication[48] - Starting SpringbootEasyuiApplication on PC-20180427VENM with PID 6680 (E:\IDE\workspace\workspace_self\springboot_easyui\target\classes started by Administrator in E:\IDE\workspace\workspace_self\springboot_easyui)
+[2018-05-14 09:59:54,183][INFO ] c.h.s.SpringbootEasyuiApplication[593] - No active profile set, falling back to default profiles: default
+[2018-05-14 09:59:54,450][INFO ] o.h.v.i.util.Version[30] - HV000001: Hibernate Validator 5.3.6.Final
+[2018-05-14 09:59:54,491][INFO ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7655ecb9: startup date [Mon May 14 09:59:54 CST 2018]; root of context hierarchy
+[2018-05-14 09:59:58,059][INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3701dd08] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-05-14 09:59:59,703][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[92] - Tomcat initialized with port(s): 8080 (http)
+[2018-05-14 09:59:59,743][INFO ] o.a.c.h.Http11NioProtocol[180] - Initializing ProtocolHandler ["http-nio-8080"]
+[2018-05-14 09:59:59,774][INFO ] o.a.c.c.StandardService[180] - Starting service [Tomcat]
+[2018-05-14 09:59:59,775][INFO ] o.a.c.c.StandardEngine[180] - Starting Servlet Engine: Apache Tomcat/8.5.31
+[2018-05-14 10:00:00,227][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring embedded WebApplicationContext
+[2018-05-14 10:00:00,228][INFO ] o.s.w.c.ContextLoader[276] - Root WebApplicationContext: initialization completed in 5737 ms
+[2018-05-14 10:00:00,689][INFO ] o.s.b.w.s.ServletRegistrationBean[190] - Mapping servlet: 'dispatcherServlet' to [/]
+[2018-05-14 10:00:00,702][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-05-14 10:00:00,704][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-05-14 10:00:00,705][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-05-14 10:00:00,706][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'requestContextFilter' to: [/*]
+[2018-05-14 10:00:02,349][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[356] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2018-05-14 10:00:02,388][INFO ] o.h.j.i.u.LogHelper[31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-05-14 10:00:02,631][INFO ] o.hibernate.Version[37] - HHH000412: Hibernate Core {5.0.12.Final}
+[2018-05-14 10:00:02,639][INFO ] o.h.cfg.Environment[198] - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.show_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.hbm2ddl.auto=update, hibernate.format_sql=true}
+[2018-05-14 10:00:02,641][INFO ] o.h.cfg.Environment[317] - HHH000021: Bytecode provider name : javassist
+[2018-05-14 10:00:02,753][INFO ] o.h.a.common.Version[66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[2018-05-14 10:00:03,666][INFO ] o.h.dialect.Dialect[156] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2018-05-14 10:00:05,066][INFO ] o.h.t.h.SchemaUpdate[105] - HHH000228: Running hbm2ddl schema update
+[2018-05-14 10:00:08,274][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[414] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-14 10:00:09,369][INFO ] o.s.s.c.ThreadPoolTaskScheduler[165] - Initializing ExecutorService  'defaultSockJsTaskScheduler'
+[2018-05-14 10:00:09,471][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/ws/server] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+[2018-05-14 10:00:09,472][INFO ] o.s.w.s.s.s.WebSocketHandlerMapping[362] - Mapped URL path [/sockjs/server/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+[2018-05-14 10:00:10,531][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerAdapter[534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7655ecb9: startup date [Mon May 14 09:59:54 CST 2018]; root of context hierarchy
+[2018-05-14 10:00:10,719][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.index()
+[2018-05-14 10:00:10,723][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reject]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.reject()
+[2018-05-14 10:00:10,728][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/resource]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.login(javax.servlet.http.HttpSession,org.springframework.ui.Model)
+[2018-05-14 10:00:10,730][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/login]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.login(javax.servlet.http.HttpSession)
+[2018-05-14 10:00:10,731][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/logout]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.logout(javax.servlet.http.HttpSession)
+[2018-05-14 10:00:10,732][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.doLoin(java.lang.String,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+[2018-05-14 10:00:10,733][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reg],methods=[GET]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.toReg()
+[2018-05-14 10:00:10,735][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/reg],methods=[POST]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.doReg(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+[2018-05-14 10:00:10,736][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/verify/code],methods=[GET]}" onto public void com.huhy.springboot_easyui.easyui.controller.AppController.verifyCode(javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+[2018-05-14 10:00:10,737][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/desktop]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.desktop()
+[2018-05-14 10:00:10,738][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/password]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.changePassword()
+[2018-05-14 10:00:10,739][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/password],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AppController.doChangePassword(com.huhy.springboot_easyui.easyui.model.domain.Member,java.lang.String,java.lang.String,java.lang.String)
+[2018-05-14 10:00:10,741][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/info]}" onto public java.lang.String com.huhy.springboot_easyui.easyui.controller.AppController.changeInfo()
+[2018-05-14 10:00:10,742][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/change/info],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AppController.doChangeInfo(com.huhy.springboot_easyui.easyui.model.domain.Member,com.huhy.springboot_easyui.easyui.model.domain.Member,javax.servlet.http.HttpSession)
+[2018-05-14 10:00:10,753][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/attachment/upload],methods=[POST]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.AttachmentController.upload(com.huhy.springboot_easyui.easyui.common.AttachmentType,com.huhy.springboot_easyui.easyui.model.domain.Member,org.springframework.web.multipart.MultipartFile)
+[2018-05-14 10:00:10,755][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/attachment/**],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.springframework.core.io.Resource> com.huhy.springboot_easyui.easyui.controller.AttachmentController.loadFile(javax.servlet.http.HttpServletRequest)
+[2018-05-14 10:00:10,762][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.MemberController.index()
+[2018-05-14 10:00:10,763][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/form]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.MemberController.form(java.lang.Long,org.springframework.ui.Model)
+[2018-05-14 10:00:10,765][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.delete(java.lang.Long)
+[2018-05-14 10:00:10,766][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/check]}" onto public boolean com.huhy.springboot_easyui.easyui.controller.system.MemberController.check(java.lang.String)
+[2018-05-14 10:00:10,767][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Member> com.huhy.springboot_easyui.easyui.controller.system.MemberController.list(int,int,java.lang.String,java.lang.String,java.lang.String)
+[2018-05-14 10:00:10,769][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/save || /system/member/update]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.save(com.huhy.springboot_easyui.easyui.model.domain.Member,java.lang.Long[],org.springframework.validation.BindingResult)
+[2018-05-14 10:00:10,771][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/roles]}" onto public java.util.List<com.huhy.springboot_easyui.easyui.model.domain.Role> com.huhy.springboot_easyui.easyui.controller.system.MemberController.roles()
+[2018-05-14 10:00:10,773][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/member/password/reset]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.MemberController.resetPassword(java.lang.Long)
+[2018-05-14 10:00:10,777][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.ResourceController.index()
+[2018-05-14 10:00:10,778][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/form]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.ResourceController.form(java.lang.Long,org.springframework.ui.Model)
+[2018-05-14 10:00:10,779][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.ResourceController.delete(java.lang.Long)
+[2018-05-14 10:00:10,780][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.ResourceController.list()
+[2018-05-14 10:00:10,782][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/save || /system/resource/update]}" onto public java.lang.Object com.huhy.springboot_easyui.easyui.controller.system.ResourceController.save(com.huhy.springboot_easyui.easyui.model.domain.Resource,org.springframework.validation.BindingResult)
+[2018-05-14 10:00:10,783][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/resource/parent/tree]}" onto public java.lang.Iterable<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.ResourceController.parentTree()
+[2018-05-14 10:00:10,786][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role]}" onto public void com.huhy.springboot_easyui.easyui.controller.system.RoleController.index()
+[2018-05-14 10:00:10,787][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/delete]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.RoleController.delete(java.lang.Long)
+[2018-05-14 10:00:10,789][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/list]}" onto public com.huhy.springboot_easyui.easyui.common.DataGrid<com.huhy.springboot_easyui.easyui.model.domain.Role> com.huhy.springboot_easyui.easyui.controller.system.RoleController.list()
+[2018-05-14 10:00:10,791][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/save || /system/role/update]}" onto public java.lang.Object com.huhy.springboot_easyui.easyui.controller.system.RoleController.save(com.huhy.springboot_easyui.easyui.model.domain.Role,org.springframework.validation.BindingResult)
+[2018-05-14 10:00:10,792][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/resource/save]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.system.RoleController.resourceSave(java.lang.Long,java.lang.Long[])
+[2018-05-14 10:00:10,794][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/system/role/resource/tree]}" onto public java.lang.Iterable<com.huhy.springboot_easyui.easyui.model.domain.Resource> com.huhy.springboot_easyui.easyui.controller.system.RoleController.resourceTree()
+[2018-05-14 10:00:10,795][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/im/user/list]}" onto public com.huhy.springboot_easyui.easyui.common.AjaxResult com.huhy.springboot_easyui.easyui.controller.websocket.ImController.userList()
+[2018-05-14 10:00:10,796][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/im/send]}" onto public void com.huhy.springboot_easyui.easyui.controller.websocket.ImController.send(java.lang.Long,java.lang.String,com.huhy.springboot_easyui.easyui.model.domain.Member)
+[2018-05-14 10:00:10,802][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2018-05-14 10:00:10,803][INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping[543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2018-05-14 10:00:10,896][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-14 10:00:10,897][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-14 10:00:11,080][INFO ] o.s.w.s.h.SimpleUrlHandlerMapping[362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-05-14 10:00:11,606][INFO ] o.s.w.s.v.f.FreeMarkerConfigurer[127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[2018-05-14 10:00:13,031][INFO ] o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+[2018-05-14 10:00:13,191][INFO ] o.s.j.e.a.AnnotationMBeanExporter[431] - Registering beans for JMX exposure on startup
+[2018-05-14 10:00:13,211][INFO ] o.s.c.s.DefaultLifecycleProcessor[341] - Starting beans in phase 2147483647
+[2018-05-14 10:00:13,233][INFO ] o.a.c.h.Http11NioProtocol[180] - Starting ProtocolHandler ["http-nio-8080"]
+[2018-05-14 10:00:13,268][INFO ] o.a.t.u.n.NioSelectorPool[180] - Using a shared selector for servlet write/read
+[2018-05-14 10:00:13,309][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[216] - Tomcat started on port(s): 8080 (http)
+[2018-05-14 10:00:13,324][INFO ] c.h.s.SpringbootEasyuiApplication[57] - Started SpringbootEasyuiApplication in 20.275 seconds (JVM running for 21.944)
+[2018-05-14 10:00:34,468][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-05-14 10:00:34,469][INFO ] o.s.w.s.DispatcherServlet[489] - FrameworkServlet 'dispatcherServlet': initialization started
+[2018-05-14 10:00:34,526][INFO ] o.s.w.s.DispatcherServlet[508] - FrameworkServlet 'dispatcherServlet': initialization completed in 56 ms
+[2018-05-14 10:00:40,906][INFO ] o.h.h.i.QueryTranslatorFactoryInitiator[47] - HHH000397: Using ASTQueryTranslatorFactory
+[2018-05-14 10:02:10,976][INFO ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7655ecb9: startup date [Mon May 14 09:59:54 CST 2018]; root of context hierarchy
+[2018-05-14 10:02:10,980][INFO ] o.s.c.s.DefaultLifecycleProcessor[356] - Stopping beans in phase 2147483647
+[2018-05-14 10:02:10,982][INFO ] o.s.j.e.a.AnnotationMBeanExporter[449] - Unregistering JMX-exposed beans on shutdown
+[2018-05-14 10:02:10,983][INFO ] o.s.s.c.ThreadPoolTaskScheduler[202] - Shutting down ExecutorService 'defaultSockJsTaskScheduler'
+[2018-05-14 10:02:10,985][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[590] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2018-05-14 10:02:11,751][INFO ] c.h.s.SpringbootEasyuiApplication[48] - Starting SpringbootEasyuiApplication on PC-20180427VENM with PID 6680 (E:\IDE\workspace\workspace_self\springboot_easyui\target\classes started by Administrator in E:\IDE\workspace\workspace_self\springboot_easyui)
+[2018-05-14 10:02:11,751][INFO ] c.h.s.SpringbootEasyuiApplication[593] - No active profile set, falling back to default profiles: default
+[2018-05-14 10:02:11,755][INFO ] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext[583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49c648e7: startup date [Mon May 14 10:02:11 CST 2018]; root of context hierarchy
+[2018-05-14 10:02:12,673][INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[327] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3701dd08] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-05-14 10:02:12,812][INFO ] o.s.b.c.e.t.TomcatEmbeddedServletContainer[92] - Tomcat initialized with port(s): 8080 (http)
+[2018-05-14 10:02:12,813][INFO ] o.a.c.h.Http11NioProtocol[180] - Initializing ProtocolHandler ["http-nio-8080"]
+[2018-05-14 10:02:12,813][INFO ] o.a.c.c.StandardService[180] - Starting service [Tomcat]
+[2018-05-14 10:02:12,814][INFO ] o.a.c.c.StandardEngine[180] - Starting Servlet Engine: Apache Tomcat/8.5.31
+[2018-05-14 10:02:12,854][INFO ] o.a.c.c.C.[.[.[/][180] - Initializing Spring embedded WebApplicationContext
+[2018-05-14 10:02:12,856][INFO ] o.s.w.c.ContextLoader[276] - Root WebApplicationContext: initialization completed in 1101 ms
+[2018-05-14 10:02:12,920][INFO ] o.s.b.w.s.ServletRegistrationBean[190] - Mapping servlet: 'dispatcherServlet' to [/]
+[2018-05-14 10:02:12,921][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-05-14 10:02:12,922][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-05-14 10:02:12,922][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-05-14 10:02:12,922][INFO ] o.s.b.w.s.FilterRegistrationBean[258] - Mapping filter: 'requestContextFilter' to: [/*]
+[2018-05-14 10:02:12,936][WARN ] o.a.c.c.C.[.[.[/][180] - Cannot deserialize session attribute [menus] for session [23257F02C14DBCA31D2774D68871E4F4]
+[2018-05-14 10:02:13,278][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean[356] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2018-05-14 10:02:13,278][INFO ] o.h.j.i.u.LogHelper[31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2018-05-14 10:02:13,506][INFO ] o.h.dialect.Dialect[156] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2018-05-14 10:02:13,572][INFO ] o.h.t.h.SchemaUpdate[105] - HHH000228: Running hbm2ddl schema update
