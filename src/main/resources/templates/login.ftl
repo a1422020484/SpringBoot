@@ -23,10 +23,10 @@
       <div class="actions"><a href="/reg">注册</a></div>
     </div>
   <#if error??>
-    <div style="text-align:center;padding: 10px;">${error}</div>
+    <div style="text-align:center;padding: 10px;"></div>
   </#if>
 
   </form>
 </div>
 </body>
-</html>
+</html>${error}
