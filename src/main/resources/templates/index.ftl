@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -35,6 +35,10 @@
       id:${s_member.id},
       realName: '${s_member.realName}',
       userName: '${s_member.userName}'
+    };
+
+    var menus = {
+      id:${menus?size}
     };
   </script>
   <script src="/js/require.js" charset="utf-8" data-main="js/app" defer async="true"></script>
@@ -77,7 +81,7 @@
   <div id="online_list" class="online-list">
     <div class="online-list-header">
       <i class="fa fa-close"></i>
-      <span>系统在线用户</span>
+      <span>系统在线用户</span>online-list-users
     </div>
     <div class="online-list-users">
       <ul>
