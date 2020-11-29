@@ -5,6 +5,7 @@ define(function () {
     var resourcePanel = $("#role-resource-panel");
     var currentRoelId;
 
+    // https://www.jeasyui.net/extension/190.html
     // 使用edatagrid，需要而外导入edatagrid扩展
     dg.edatagrid({
       url: '/system/role/list',

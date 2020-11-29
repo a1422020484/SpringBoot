@@ -47,7 +47,8 @@ define(function () {
             }],
             editable: false,
             required: true,
-            panelHeight: 'auto'
+            panelHeight: 'auto',
+            editable: false
           }
         },
         formatter: function (val) {
